@@ -1,9 +1,10 @@
 # MF 
+
 <div align="center" style="padding-bottom:15px;">
   
-  <h4>
-    a minecraft addon pack creator yada yada:D
-  </h4>
+  <p>
+    <b>a minecraft addon pack creator yada yada:D</b>
+  <p>
   
   <a align="center" rel="site" href="https://spac3sc.github.io/Minecraft-Facilities/">
     VIEW AS WEBSITE 
