@@ -9,5 +9,6 @@ body{
     text-align: center;
 }
 .featured_buttons{
-    text-align: center;
+  display: block;
+  margin: auto;
 }
