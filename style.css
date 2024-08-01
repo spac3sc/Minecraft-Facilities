@@ -5,6 +5,10 @@ body{
     background-position: center;
     background-size: cover;
 }
+#title_text{
+  text-align: center;
+  color: white;
+}
 #q1{
     text-align: center;
 }
