@@ -5,14 +5,21 @@
   "main": "index.js",
   "scripts": {
     "start": "node server",
+<<<<<<< HEAD
     "test": "jest"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> ac7fe7c7875d67d255724a45784fae5a7df7f7a6
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "node": "^22.7.0",
     "server": "^1.0.39",
+=======
+>>>>>>> ac7fe7c7875d67d255724a45784fae5a7df7f7a6
     "webpack-dev-server": "^5.0.4"
   },
   "devDependencies": {
