@@ -1,12 +1,21 @@
 {
   "name": "minecraft-facilities",
-  "version": "1.0.0",
+  "version": "18.18.0",
   "description": "<div align=\"center\" style=\"padding-bottom:15px;\">",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node": "^22.7.0",
+    "server": "^1.0.39",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
 }
