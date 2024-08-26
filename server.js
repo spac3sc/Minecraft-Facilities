@@ -1,27 +1,15 @@
-//app.js
+const express = require('express');
+const path = require('path');
 
-const http = require('http')
-const port = 8080
+const app = express();
 
-// Create a server object:
-const server = http.createServer(function (req, res) {
+app.use(express.static(path.join(__dirname, '/public')))
 
-    // Write a response to the client
-    res.write('Hello World')
-
-    // End the response 
-    res.end()
+app.use((req, res) => {
+    res.status(404);
+    res.send('<h1>WRONG LINK DIPSHT</h1>');
 })
 
-// Set up our server so it will listen on the port
-server.listen(port, function (error) {
-
-    // Checking any error occur while listening on port
-    if (error) {
-        console.log('Something went wrong', error);
-    }
-    // Else sent message of listening
-    else {
-        console.log('Server is listening on port' + port);
-    }
+app.listen(8080, () => {
+    console.log("App listening on port 8080")
 })
