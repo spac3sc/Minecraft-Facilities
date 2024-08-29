@@ -6,7 +6,7 @@
     <b>a minecraft addon pack creator yada yada:D</b>
   <p>
   
-  <a align="center" rel="site" href="https://spac3sc.github.io/Minecraft-Facilities/">
+  <a align="center" rel="site" href="https://www.mfacilities.onrender.com">
     VIEW AS WEBSITE 
   </a>
   
