@@ -6,7 +6,7 @@
     <b>a minecraft addon pack creator yada yada:D</b>
   <p>
   
-  <a align="center" rel="site" href="https://www.mfacilities.onrender.com">
+  <a align="center" rel="site" href="https://mfacilities.onrender.com">
     VIEW AS WEBSITE 
   </a>
   
